@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://besthqwallpapers.com/Uploads/25-3-2019/84708/santiago-bernabeu-4k-empty-stadium-real-madrid-stadium-soccer.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;  /*para poner la imagen en pantalla completa*/
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 0% 50% 0%;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    min-height: 70px;
+    justify-content: space-between;   /*separa los mbloques de fila*/
+    align-items: center;  /* centra los objetos*/
+    padding: 10%;
+
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+    

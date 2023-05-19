@@ -1,0 +1,46 @@
+
+.button{
+    background-color: yellow;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; /*para quita e subrayado*/
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 10px;  /*para dejar espacio entre los botons */
+    cursor: not-allowed hace que el boton no funcione
+    border-radius  20px;
+    box-shadow: 0px 10px 15px 0px  orange;   /* display: block es para poner uno encima del otro */
+
+}
+.button:hover{
+    background-color: aquamarine;
+    color: blue;
+    
+}
+.button{
+    transition-duration: 2s;
+
+}
+.boton1{
+    display: inline-block;
+    background-color: greenyellow;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;    /*es´para que no se vea el borde de las palbras*/
+    box-shadow: 0px 10px 15px 0px blue;
+
+}
+.boton1:hOver{
+    background-color: rgb(22, 197, 197);
+
+}
+.boton1:active{
+    background-color: red;
+    box-shadow: 0px 10px  orange;
+    transform: translateY(4px);
+}
