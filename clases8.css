@@ -44,3 +44,33 @@
     box-shadow: 0px 10px  orange;
     transform: translateY(4px);
 }
+header{
+    display: flex;
+    height: 70px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    color: orangered;
+}
