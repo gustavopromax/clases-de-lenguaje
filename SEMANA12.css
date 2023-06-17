@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(171, 196, 170);
+    margin: 0;
+    
+    
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(214, 232, 219);
+    justify-content: space-between;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .madrid{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    color: orangered;
+}
+.real{
+    height: 80%;
+    width: 50%;
+    position: relative;
+    left: 420px;
+    top: 50px;
+}
+.sub{
+    background-color: rgb(135, 203, 185);
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.titulo{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+P{
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center ;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.reloj{
+    width: 700px;
+    height: 250px;
+    background: linear-gradient(to right, #240b36, #c31432);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-bottom: 10px solid #190329;
+    user-select: none;
+}
+.reloj .dia{
+    font-size: 25px;
+}
+.reloj .mes{
+    font-size: 40px;
+}
+.reloj .hora{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.reloj .hora p{
+    font-size: 50px;
+    background-color: #240b36;
+    padding: 10px;
+    margin: 0px 5px;
+    border: 1px solid #ffffff;
+}
+
+    

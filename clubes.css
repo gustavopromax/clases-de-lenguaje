@@ -1,0 +1,38 @@
+body{background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/fondo-para-paginas-web-profesionales-3d-grandes.jpg);
+    background-size: 100% ;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:blac;
+    font-size: 55px;
+    -webkit-text-stroke: 2px white;
+
+    
+}
+    
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 29px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: orange;
+}
